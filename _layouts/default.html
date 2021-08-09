@@ -2,16 +2,17 @@
 <html lang="de">
 <head>
   <!-- https://www.youtube.com/watch?v=t5NqX9UmPco -->
-  <!-- TODO: meta Daten anpassen -->
+  <!-- TODO: meta Daten mit Variablen anpassen -->
   <meta charset="utf-8">
   <meta name="description" content=""Das ist der Webauftritt von Julia Ernst>
   <meta name="keywords" content="Geodesy, Medieninformatik, Julia Ernst, Programmieren, GIS">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
-  <meta property="og:title" content="Das ist mein geiler Titel">
-  <meta property="og:description" content="Das ist meine geile Beschreibung">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="Willkommen auf meiner Seite">
   <!-- TODO: Bild wird nicht richtig angezeigt -->
-  <meta property="og:image" content="https://missserious.github.io/juliaernst/img/wave.png">
+  <!-- <meta property="og:image" content="https://missserious.github.io/juliaernst/img/wave.png"> -->
+  <meta property="og:image" content="{{site.baseurl}}/juliaernst/img/wave.png">
 
   <link href="{{site.baseurl}}/css/styles.css" rel="stylesheet">
   <title>{{ site.title }}</title>
