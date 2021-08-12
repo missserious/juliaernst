@@ -17,7 +17,7 @@ body {
 }
 
 /* alle Kinderelemente muessen auch margin: 0 bekommen */
-h1, h2, h4,h6, p {
+h1, h2, h4, h6, p {
     margin: 0px;
     font-weight: 100;
 }
@@ -25,19 +25,19 @@ h1, h2, h4,h6, p {
 /* TODO: Schriften ALLGEMEIN definieren */
 /* TODO: font-weight und line-height nachlesen*/
 
-header h1 {
+h1 {
     font-size: 72px;
     /*padding: 10px 10px 10px 10px;*/
     /*line-height: 1.0;*/
     text-align: center;
 }
 
-header h2 {
+h2 {
     font-size: 35px;
     text-align: center;
 }
 
-header h6 {
+h6 {
     font-size: 8px;
     padding: 10px 10px 10px 10px;
 
