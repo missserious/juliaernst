@@ -18,7 +18,7 @@ body {
 
 header {
   height: 360px;
-  background-image: url(../img/makeAwish.png), url(../img/header.jpg);
+  background-image: url({{site.baseurl}}/img/makeAwish.png), url({{site.baseurl}}/img/header.jpg);
   background-position: center 290px, center top;
   background-size:960px, 960px;
   background-repeat: no-repeat, no-repeat;
