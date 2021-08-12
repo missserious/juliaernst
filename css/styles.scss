@@ -5,6 +5,12 @@ $color1: red;
 $color2: yellow;
 
 
+/* Universalselektor */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
@@ -13,16 +19,17 @@ body {
   line-height: 1.3;
   background-color:#000;
   color: white;
-  max-width: 960px;
+  max-width: 880px;
 }
 
 header {
-  height: 360px;
-  background-image: url({{site.baseurl}}/img/makeAwish.png), url({{site.baseurl}}/img/header.jpg);
-  background-position: center 290px, center top;
-  background-size:960px, 960px;
+  height: 384px;
+  background-image: url(../img/makeAwish.png), url(../img/header.jpg);
+  background-position: center 266px, center top;
+  background-size:880px, 880px;
   background-repeat: no-repeat, no-repeat;
   background-attachment:fixed, fixed;
+  background-color: red;
 }
 
 main {
