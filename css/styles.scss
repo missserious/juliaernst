@@ -56,11 +56,20 @@ Header -- Anfang
 header {
   height: 421px;
   background-image: url(../img/makeAwish.png), url(../img/header.jpg);
-  background-position: center 290px, center top;
+  background-position: 40% 290px, 40% top;
   background-size:960px, 960px;
   background-repeat: no-repeat, no-repeat;
   background-attachment:fixed, fixed;
 }
+
+  /* TODO: Wo liegt der Unterschied zwischen only und nicht only...*/
+  @media only screen and (min-width: 420px) {
+
+    header {
+      background-position: center 290px, center top;
+    }
+
+  }
 
 main {
   background-color: $color1;
