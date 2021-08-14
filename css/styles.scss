@@ -5,6 +5,14 @@ $color1: magenta;
 $color2: blue;
 
 
+/* Universalselektor */
+/* TODO: Universalselektor nochmals testen*/
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
 body {
   margin: 0px auto;
   font-family: 'Roboto', sans-serif;
@@ -17,10 +25,10 @@ body {
 }
 
 /* alle Kinderelemente muessen auch margin: 0 bekommen */
-h1, h2, h4, h6, p {
+/* h1, h2, h4, h6, p {
     margin: 0px;
     font-weight: 100;
-}
+} */
 
 /* TODO: Schriften ALLGEMEIN definieren */
 /* TODO: font-weight und line-height nachlesen*/
@@ -31,7 +39,7 @@ header h1 {
     /*line-height: 1.0;*/
     text-align: center;
     /* test */
-    color: red;
+    color: blue;
 }
 
 header h2 {
@@ -50,6 +58,11 @@ header h6 {
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     float:left;
+}
+
+footer h5 {
+  font-size: 12px;
+  text-align: center;
 }
 
 /*
