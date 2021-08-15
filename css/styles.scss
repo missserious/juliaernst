@@ -39,7 +39,7 @@ header h1 {
     /*line-height: 1.0;*/
     text-align: center;
     /* test */
-    color: blue;
+    color: yellow;
 }
 
 header h2 {
@@ -92,9 +92,4 @@ main {
 
 footer {
   background-color: $color2;
-}
-
-/* alle Kinderelemente muessen auch margin: 0 bekommen*/
-h1, h2, h4, p {
-    margin: 0px;
 }
