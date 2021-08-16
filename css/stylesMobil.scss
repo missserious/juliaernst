@@ -1,0 +1,158 @@
+---
+---
+
+/* alle Farbvariablen setzen */
+$color1: magenta;
+$color2: blue;
+
+/* Universalselektor */
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+body {
+  margin: 0px auto;
+  font-family: 'Roboto', sans-serif;
+  background-color:#000;
+  color: #FFF;
+  max-width: 960px;
+}
+
+/* TODO: Schriften h1 bis h6 definieren */
+h1 {
+    font-size: 72px;
+    color: blue;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+/*
+h3 {
+    font-size: px;
+}
+
+h4 {
+    font-size: px;
+}*/
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+    font-size: 8px;
+}
+
+/*
+ * Header
+*/
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header h6 {
+  padding: 10px 10px 10px 10px;
+
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  float:left;
+}
+
+header {
+  height: 421px;
+  background-image: url(../img/makeAwish.png), url(../img/header.jpg);
+  /* background-position: center 290px, center top; */
+  background-position: 40% 290px, 40% top;
+  background-size:960px, 960px;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment:fixed, fixed;
+}
+
+
+/*
+ * Main
+*/
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-row: 15% 15% 15% 15% 15% 15%;
+  grid-template-areas:
+    "intro"
+    "education"
+    "skills-1"
+    "skills-2"
+    "contact";
+}
+
+.bckgnd {
+  grid-column: 1;
+  grid-row: 3/5;
+  background: url('../img/bckgnd02.jpg') center no-repeat;
+  z-index: -1;
+}
+
+.box-1 {
+    background-color: #FFF;
+    color: #000;
+    grid-area: intro;
+}
+
+.box-2 {
+  background-color: #FFF;
+  color: #000;
+    grid-area: education;
+    /* grid im grid */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-row: 50% 50%;
+    grid-template-areas:
+      "picture"
+      "education";
+}
+
+.education {
+    grid-area: education;
+}
+
+.picture {
+    grid-area: picture;
+}
+
+.box-3 {
+    grid-area: skills-1;
+}
+
+.box-4 {
+    grid-area: skills-2;
+}
+
+.box-5 {
+    background-color: #FFF;
+    text-align: center;
+    color: #000;
+    grid-area: contact;
+}
+
+
+/*
+ * Footer
+*/
+footer h5 {
+  text-align: center;
+}
+
+footer {
+  background: #201e2c;
+}
