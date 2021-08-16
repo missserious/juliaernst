@@ -93,12 +93,13 @@ main {
     "education"
     "skills-1"
     "skills-2"
+    "icons"
     "contact";
 }
 
 .bckgnd {
   grid-column: 1;
-  grid-row: 3/5;
+  grid-row: 3/6;
   background: url('../img/bckgnd02.jpg') center no-repeat;
   z-index: -1;
 }
@@ -139,6 +140,17 @@ main {
 }
 
 .box-5 {
+    grid-area: icons;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-5 img{
+  width: 40px;
+}
+
+.box-6 {
     background-color: #FFF;
     text-align: center;
     color: #000;
