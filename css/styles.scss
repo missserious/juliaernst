@@ -67,7 +67,7 @@ TODO; Layout fuer mobile Ansicht
 TODO: Ladezeit vom header verbessern
 */
 header {
-  /* height: 421px; */
+  height: 421px;
   /* height: 384px; */
   background-image: url(../img/makeAwish.png), url(../img/header.jpg);
   /* background-position: 40% 266px, 40% top; */
@@ -81,8 +81,9 @@ header {
   @media only screen and (min-width: 420px) {
 
     header {
+      height: 421px;
       background-position: center 290px, center top;
-        background-size:960px, 960px;
+      background-size:960px, 960px;
     }
 
   }
