@@ -161,10 +161,12 @@ main {
 /*
  * Footer
 */
-footer h5 {
-  text-align: center;
-}
 
 footer {
   background: #201e2c;
+  text-align: center;
+}
+
+footer .footer-me {
+  display: none;
 }

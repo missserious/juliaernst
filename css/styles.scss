@@ -13,3 +13,45 @@
   }
 
 }
+
+/* tablet & desktop */
+@media screen and (min-width: 760px) {
+
+  main {
+    grid-template-columns: 50% 50%;
+    grid-template-row: 30% 30% 20% 20%;
+    grid-template-areas:
+      "intro education"
+      "skills-1 skills-2"
+      "icons icons"
+      "contact contact";
+  }
+
+  /* Hintergrundbild */
+  .bckgnd {
+    grid-column: 1/3 !important;
+    grid-row: 2/4 !important;
+    background: url('../img/bckgnd.jpg') center no-repeat;
+  }
+
+  .box-2 {
+      /* grid im grid */
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-row: 50% 50%;
+      grid-template-areas:
+        "education"
+        "picture";
+  }
+
+  /*
+   * Footer
+  */
+  footer .footer-sm{
+    display: none;
+  }
+
+  footer .footer-me {
+    display:block;
+  }
+}
