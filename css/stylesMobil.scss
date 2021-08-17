@@ -21,20 +21,30 @@ body {
 }
 
 /* TODO: Schriften h1 bis h6 definieren */
+/*
+ * h1 : 72px (mobil)    |     82px
+ * h2 : 72px (mobil)    |     82px
+ *
+ *
+ */
+
+
 h1 {
     font-size: 72px;
-    color: blue;
+    line-height: 1.0;
 }
 
 h2 {
     font-size: 35px;
+    line-height: 1.15;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 1.0;
 }
 
 /*
-h3 {
-    font-size: px;
-}
-
 h4 {
     font-size: px;
 }*/
@@ -56,6 +66,7 @@ header h1 {
 
 header h2 {
     text-align: center;
+    font-style: italic;
 }
 
 header h6 {
