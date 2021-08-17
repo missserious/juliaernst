@@ -9,7 +9,8 @@ $color2: blue;
 * {
   margin: 0;
   padding: 0;
-  font-weight: 100;
+  font-weight: 300;
+  line-height: 1.3;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
  * h3 : 16px (mobil)    |
 
  * h4 : 14px (mobil)    |     34px
- * h5 : 12px (mobil)    |     
+ * h5 : 12px (mobil)    |
  * h6 : 08px (mobil)    |
  * p  : 15px (mobil)    |
  *
@@ -39,22 +40,24 @@ body {
 h1 {
     font-size: 72px;
     line-height: 1.0;
+    font-weight: 100;
 }
 
 h2 {
     font-size: 35px;
     /*line-height: 1.15;*/
     line-height: 1.0;
+    font-weight: 100;
 }
 
 h3 {
     font-size: 16px;
-    line-height: 1.0;
 }
 
 h4 {
   font-size: 14px;
   line-height: 1.0;
+  font-weight: 100;
 }
 
 h5 {
@@ -74,11 +77,13 @@ p {
 */
 header h1 {
     text-align: center;
+    padding: 60px 0px 0px 0px;
 }
 
 header h2 {
     text-align: center;
     font-style: italic;
+    padding: 10px 0px 0px 0px;
 }
 
 header h6 {
@@ -130,12 +135,14 @@ main {
 .box-1 {
     background-color: #FFF;
     color: #000;
+    padding: 40px 60px 20px 60px;
     grid-area: intro;
 }
 
 .box-2 {
   background-color: #FFF;
   color: #000;
+  padding: 20px 60px 40px 60px;
     grid-area: education;
     /* grid im grid */
     display: grid;
@@ -154,30 +161,47 @@ main {
     grid-area: picture;
 }
 
+.picture img {
+    height: 200px;
+    padding-bottom: 20px;
+}
+
 .box-3 {
+    padding: 40px 60px 20px 60px;
     grid-area: skills-1;
 }
 
 .box-4 {
+    padding: 40px 60px 20px 60px;
     grid-area: skills-2;
 }
 
 .box-5 {
+    padding: 20px 60px 40px 60px;
     grid-area: icons;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box-5 img{
-  width: 40px;
+.box-5 img {
+  width: 50px;
+}
+
+.box-5 a {
+    padding: 0px 15px 0px 15px;
 }
 
 .box-6 {
+    padding: 40px 60px 40px 60px;
     background-color: #FFF;
     text-align: center;
     color: #000;
     grid-area: contact;
+}
+
+hr {
+    margin: 40px 0px 40px 0px;
 }
 
 
@@ -188,6 +212,7 @@ main {
 footer {
   background: #201e2c;
   text-align: center;
+  padding: 40px 0px 40px 0px;
 }
 
 footer .footer-me {

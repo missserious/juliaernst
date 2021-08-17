@@ -4,6 +4,18 @@
 /*
  * Header
 */
+
+
+
+@media only screen and (min-width: 360px) {
+
+  header h1 {
+      text-align: center;
+      padding: 120px 0px 0px 0px;
+  }
+
+}
+
 @media only screen and (min-width: 420px) {
 
   header {
@@ -34,6 +46,10 @@
     background: url('../img/bckgnd.jpg') center no-repeat;
   }
 
+  header h1 {
+    font-size: 82px;
+  }
+
   main h2 {
     font-size: 64px;
   }
@@ -49,12 +65,19 @@
 
   .box-2 {
       /* grid im grid */
+      padding: 40px 60px 40px 60px;
       display: grid;
       grid-template-columns: 100%;
       grid-template-row: 50% 50%;
       grid-template-areas:
         "education"
         "picture";
+  }
+
+  .picture img {
+      height: 200px;
+      padding-bottom: 0px;
+      padding-top: 20px;
   }
 
   /*
