@@ -50,6 +50,10 @@ h2 {
     font-weight: 100;
 }
 
+main h2 {
+    font-size: 22px;
+}
+
 h3 {
     font-size: 16px;
 }
@@ -70,6 +74,11 @@ h6 {
 
 p {
   font-size: 15px;
+}
+
+strong {
+    /* font-weight: 500; */
+    font-weight: 400;
 }
 
 /*
@@ -167,12 +176,12 @@ main {
 }
 
 .box-3 {
-    padding: 40px 60px 20px 60px;
+    padding: 40px 60px 0px 60px;
     grid-area: skills-1;
 }
 
 .box-4 {
-    padding: 40px 60px 20px 60px;
+    padding: 20px 60px 20px 60px;
     grid-area: skills-2;
 }
 
