@@ -18,11 +18,6 @@
       font-size: 28px;
   }
 
-  .box-1 {
-      border: medium solid red;
-      padding: 40px 60px 20px 60px;
-  }
-
 }
 
 @media only screen and (min-width: 420px) {
@@ -38,6 +33,7 @@
   }
 
   .box-1 {
+      border: medium solid blue;
       padding: 40px 60px 20px 60px;
   }
 
