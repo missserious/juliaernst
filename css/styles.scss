@@ -61,6 +61,10 @@
 /* tablet & desktop */
 @media screen and (min-width: 760px) {
 
+  * {
+    line-height: 1.5;
+  }
+
   main {
     grid-template-columns: 50% 50%;
     grid-template-row: 30% 30% 20% 20%;
@@ -71,11 +75,16 @@
       "contact contact";
   }
 
+  .picture {
+      text-align: center;
+  }
+
   /* Hintergrundbild */
   .bckgnd {
     grid-column: 1/3 !important;
     grid-row: 2/4 !important;
-    background: url('../img/bckgnd.jpg') center no-repeat;
+    background: url('../img/bckgnd02.jpg') center no-repeat;
+    /* background: url('../img/bckgnd.jpg') center no-repeat; */
   }
 
   header h1 {
@@ -95,11 +104,12 @@
   }
 
   .box-1 {
-    border: medium solid red;
-  }  
+    /*border: medium solid red;*/
+  }
 
   .box-2 {
       /* grid im grid */
+      text-align: left;
       padding: 40px 60px 40px 60px;
       display: grid;
       grid-template-columns: 100%;
@@ -116,11 +126,11 @@
   }
 
   .box-3 {
-      padding: 40px 60px 20px 60px;
+      padding: 40px 60px 0px 60px;
   }
 
   .box-4 {
-      padding: 40px 60px 20px 60px;
+      padding: 40px 60px 0px 60px;
   }
 
   /*
@@ -132,5 +142,18 @@
 
   footer .footer-me {
     display:block;
+  }
+}
+
+/* tablet & desktop */
+@media screen and (min-width: 960px) {
+
+  * {
+    line-height: 1.5;
+  }
+
+  /* Hintergrundbild */
+  .bckgnd {
+    background: url('../img/bckgnd.jpg') center no-repeat;
   }
 }
