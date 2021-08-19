@@ -1,17 +1,7 @@
 ## Jekyll starting and stopping
+- bundle exec jekyll serve
 
-# test
-
-
----
-
- ## hallo
-- ja
-
- ---
-
-** blub **
-
-+ hello
-+ styles
-+ und mehr...
+## GIT commands
+-
+-
+-  
