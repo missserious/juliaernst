@@ -4,9 +4,6 @@
 /*
  * Header
 */
-
-
-
 @media only screen and (min-width: 360px) {
 
   header h1 {
@@ -76,7 +73,7 @@
   }
 
   .picture {
-      text-align: center;
+      text-align: left;
   }
 
   /* Hintergrundbild */
@@ -120,7 +117,7 @@
   }
 
   .picture img {
-      height: 200px;
+      height: 180px;
       padding-bottom: 0px;
       padding-top: 20px;
   }
