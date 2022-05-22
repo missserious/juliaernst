@@ -5,8 +5,9 @@ Static Site Generator hosted on github<br/><br/>
 
 #### Install software prerequisites
 
->You will need to have ruby and gem installed. 
-ruby (that jekyll can run) and ruby gems (package manager for ruby).
+>You will need to have **ruby** installed, that jekyll can run. <br>
+Also **ruby gems** (package manager for ruby) has to be installed. 
+
 
 ```ruby -v``` 
 ```gem -v``` 
