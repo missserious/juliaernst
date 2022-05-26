@@ -2,8 +2,10 @@
 ---
 
 /* alle Farbvariablen setzen */
-$color1: magenta;
-$color2: blue;
+$default_grey: #201e2c;     // footer und schwarze Schrift
+$default_white: #FFF;  
+$background_color: #EDEDED;
+
 
 /* Universalselektor */
 * {
@@ -16,8 +18,8 @@ $color2: blue;
 body {
   margin: 0px auto;
   font-family: 'Roboto', sans-serif;
-  background-color: #EDEDED;
-  color: #FFF;
+  background-color: $background_color;
+  color: $default_white;
   max-width: 960px;
 }
 
@@ -168,15 +170,15 @@ main {
 }
 
 .box-1 {
-    background-color: #FFF;
-    color: #000;
+    background-color: $default_white;
+    color: $default_grey;
     padding: 40px 40px 20px 40px;
     grid-area: intro;
 }
 
 .box-2 {
-  background-color: #FFF;
-  color: #000;
+  background-color: $default_white;
+  color: $default_grey;
   text-align: center;
   padding: 20px 40px 40px 40px;
     grid-area: education;
@@ -230,9 +232,9 @@ main {
 
 .box-6 {
     padding: 40px 40px 40px 40px;
-    background-color: #FFF;
+    background-color: $default_white;
     text-align: center;
-    color: #000;
+    color: $default_grey;
     grid-area: contact;
 }
 
@@ -246,7 +248,7 @@ hr {
 */
 
 footer {
-  background: #201e2c;
+  background: $default_grey;
   text-align: center;
   padding: 40px 0px 40px 0px;
 }
