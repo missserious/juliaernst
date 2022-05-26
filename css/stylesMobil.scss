@@ -98,6 +98,7 @@ ul {
 header h1 {
     text-align: center;
     padding: 60px 0px 0px 0px;
+    opacity: 0;
 }
 
 header h2 {
@@ -125,6 +126,14 @@ header {
   background-size:960px;
   background-repeat: no-repeat;
   background-attachment:fixed;
+}
+
+/*
+ * JS Effects
+*/
+.fade-in {
+  opacity: 1;
+  transition: opacity 5.5s ease;
 }
 
 
