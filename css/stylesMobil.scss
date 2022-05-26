@@ -126,6 +126,7 @@ header {
   background-size:960px;
   background-repeat: no-repeat;
   background-attachment:fixed;
+  opacity: 0;
 }
 
 /*
@@ -134,6 +135,11 @@ header {
 .fade-in {
   opacity: 1;
   transition: opacity 5.5s ease;
+}
+
+.fade-in-header {
+  opacity: 1;
+  transition: opacity 2.5s ease;
 }
 
 
