@@ -1,5 +1,5 @@
 
-Personal Webpage with Jekyll
+✨Personal Webpage with Jekyll ✨
 ---
 Static Site Generator hosted on github<br/><br/>
 
@@ -45,8 +45,4 @@ http://localhost:4000/juliaernst/
 
 ##### Demo URL
 [https://missserious.github.io/juliaernst/](https://missserious.github.io/juliaernst/)
-
-
-
-
 
